@@ -7,10 +7,10 @@ import React, { ReactChildren } from "react";
 function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
   const pageTitle = `${
     currentPage === "Home"
-      ? "Brayden Wright - Web Developer, Designer, Creator."
-      : `${currentPage} - BraydenTW.io`
+      ? "Cem Nisan - Mobile and Web Developer."
+      : `${currentPage} - cemnisan.dev`
   }`;
-  console.log(currentPage);
+
   return (
     <div
       className="w-full m-auto flex flex-col items-center justify-center min-h-screen opening-box-animate-paddin text-white overflow-hidden md:overflow-visible"

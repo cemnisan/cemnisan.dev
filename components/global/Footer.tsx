@@ -110,21 +110,22 @@ function Footer() {
             </div>
           </div>
           <div className="mt-2 text-xs ">
-            Made by{" "}
+            Cem Nisan. All rights reserved.
+            <br />
+            Inspired by{" "}
             <a
               href="mailto:contact@braydentw.io"
               className="text-fun-gray-light font-medium"
             >
               Brayden Wright
             </a>
-            . All rights reserved.
           </div>
         </p>
       </div>
       <div className="mt-8 text-center sm:text-right sm:-mt-12">
         <a
           className="w-auto inline-flex items-center sm:w-auto font-bold flex-shrink text-xs border border-fun-pink px-4 py-2 rounded-xl text-fun-pink cursor-pointer opacity-50"
-          href="https://github.com/braydentw/braydentw.io"
+          href="https://github.com/cemnisan/cemnisan.dev"
           target="_blank"
           rel="nooreferrer"
         >

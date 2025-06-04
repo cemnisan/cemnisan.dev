@@ -35,6 +35,10 @@ body::-webkit-scrollbar-thumb {
   @apply bg-fun-pink;
 }
 
+#about .landingSectionTitle::before {
+  left: 115%;
+}
+
 @media (max-width: 768px) {
   .landingSectionTitle::before {
     left: 50%;
@@ -42,7 +46,7 @@ body::-webkit-scrollbar-thumb {
     top: -20px;
     transform: translate(-50%, -50%);
     height: 8px;
-    width: 150px;
+    width: 220px;
     @apply bg-fun-pink;
   }
 }
