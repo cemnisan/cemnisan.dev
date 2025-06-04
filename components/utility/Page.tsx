@@ -22,40 +22,40 @@ function Page({ currentPage, meta: { title, desc }, children }: PageProps) {
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="/static/favicon/apple-touch-icon.png"
+          href="" // todo there will be a favicon
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="/static/favicon/favicon-32x32.png"
+          href="" // todo there will be a favicon
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="/static/favicon/favicon-16x16.png"
+          href="" // todo there will be a favicon
         />
         <link rel="manifest" href="/static/favicon/site.webmanifest" />
         <meta name="title" content={pageTitle} />
         <meta name="description" content={desc} />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://braydentw.io/" />
+        <meta property="og:url" content="https://cemnisan.dev/" />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={desc} />
         <meta
           property="og:image"
-          content="https://braydentw.io/static/misc/og.png"
+          content="" // todo there will be an og mg
         />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://braydentw.io/" />
+        <meta property="twitter:url" content="https://cemnisan.dev" />
         <meta property="twitter:title" content={pageTitle} />
         <meta property="twitter:description" content={desc} />
         <meta
           property="twitter:image"
-          content="https://braydentw.io/static/misc/og.png"
+          content="" // todo there will be an twitter image
         ></meta>
         <script
           async

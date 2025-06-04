@@ -42,22 +42,12 @@ function Footer() {
         })}
         <div className="text-center col-span-2 sm:col-auto sm:text-left pt-8 sm:mt-0 sm:pt-0 text-fun-gray border-t border-fun-pink-dark sm:border-0">
           <h4 className="uppercase text-fun-gray text-sm font-bold">
-            Support My Work
+            Contact Me
           </h4>
           <div className="space-y-2 mt-4 w-full flex items-center sm:items-start flex-col">
-            {footer.support.buymeacoffee !== "" && (
-              <div>
-                <a
-                  href={`https://buymeacoffee.com/${footer.support.buymeacoffee}`}
-                  target="_blank"
-                >
-                  <img
-                    src="/static/misc/buy-me-a-coffee.svg"
-                    className="h-12 mr-2 hover:opacity-80 opacity-100 transition-opacity"
-                  />
-                </a>
-              </div>
-            )}
+            <div>
+              <a href={`mailto:cnisan25@gmail.com`}>cnisan25@gmail.com</a>
+            </div>
             {footer.support.paypal !== "" && (
               <div>
                 <a
@@ -79,42 +69,12 @@ function Footer() {
       </div>
       <div className="max-w-4xl w-full m-auto mt-8 pt-8 sm:mt-4 sm:pt-4 text-center text-fun-gray border-t border-fun-pink-dark">
         <p className="flex flex-col items-center justify-center ">
-          <div className="inline-flex items-center uppercase text-xs font-bold tracking-widest">
-            Made with{" "}
-            <div className="space-x-2 inline-flex items-center -mt-1 ml-3">
-              <span>
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                  width="26"
-                  title="React"
-                />
-                <span className="sr-only">React</span>
-              </span>
-              <span>
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
-                  width="40"
-                  className="invert"
-                  title="NextJS"
-                />
-                <span className="sr-only">NextJS</span>
-              </span>
-              <span>
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-                  width="26"
-                  title="TailwindCSS"
-                />
-                <span className="sr-only">TailwindCSS</span>
-              </span>
-            </div>
-          </div>
           <div className="mt-2 text-xs ">
             Cem Nisan. All rights reserved.
             <br />
             Inspired by{" "}
             <a
-              href="mailto:contact@braydentw.io"
+              href="mailto:cnisan25@gmail.com"
               className="text-fun-gray-light font-medium"
             >
               Brayden Wright

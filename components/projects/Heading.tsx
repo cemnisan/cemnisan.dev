@@ -30,9 +30,10 @@ function Heading({ tag }: HeadingProps) {
       )}
       {!tag && (
         <p className="text-fun-gray text-xl sm:text-2xl max-w-3xl m-auto">
-          I've built cool apps and websites using anything from HTML to React
-          (and even PHP!). Here are some of my favorite projects over the course
-          of my journey.
+          Here are a few of my projects. I've built cool apps and websites using Swift, React, and Next.js.
+          <p className="text-sm text-gray-500 mt-2 mb-4 text-center ">
+          There will be mobile applications soon (I hope so) ¯\_(ツ)_/¯
+        </p>
         </p>
       )}
     </div>

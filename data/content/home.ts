@@ -1,16 +1,31 @@
 type Skill = {
-  title: string,
-  icon: string,
-  style?: object
+  title: string;
+  icon: string;
+  style?: object;
 };
 type Testimonial = {
-  quote: string,
-  name: string,
-  job: string
+  quote: string;
+  name: string;
+  job: string;
 };
 
-
 export const skills: Skill[] = [
+  {
+    title: "Swift",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg",
+  },
+  {
+    title: "Javascript",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+  },
+  {
+    title: "Typescript",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+  },
+  {
+    title: "NodeJS",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+  },
   {
     title: "HTML",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
@@ -20,16 +35,8 @@ export const skills: Skill[] = [
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
   },
   {
-    title: "Javascript",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-  },
-  {
-    title: "Sass",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
-  },
-  {
     title: "TailwindCSS",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg",
   },
   {
     title: "React",
@@ -41,12 +48,8 @@ export const skills: Skill[] = [
     style: { filter: "invert(1)" },
   },
   {
-    title: "Typescript",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-  },
-  {
-    title: "NodeJS",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    title: "MongoDB",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg",
   },
   {
     title: "Git",
@@ -55,30 +58,5 @@ export const skills: Skill[] = [
   {
     title: "Firebase",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-  },
-  {
-    title: "Figma",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-  },
-];
-
-export const testimonials: Testimonial[] = [
-  {
-    quote:
-      "The communication throughout the project was spot on and the genre of design was carried out well.",
-    name: "Wilson Bright",
-    job: "Co-Founder of BlockSurvey",
-  },
-  {
-    quote:
-      "The code was clean, easy to understand, and exactly what I was looking for.",
-    name: "Philip Imperato",
-    job: "CEO of VisualBonus",
-  },
-  {
-    quote:
-      "My vision was executed perfectly. The quality and speed of the work was excellent.",
-    name: "Zach Green",
-    job: "Founder of Hangxiety Shrink",
   },
 ];

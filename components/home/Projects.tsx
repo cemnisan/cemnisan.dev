@@ -8,10 +8,13 @@ import ProjectCard from "../projects/ProjectCard";
 function Projects() {
   return (
     <div className="flex flex-col text-left justify-between pt-8 relative">
-      <div id="learnmore">
-        <SectionTitle title="Here are a few of my projects." />
+      <div id="learnmore" className="flex flex-col">
+        <SectionTitle title="Here are a few of my projects." mb={2} />
+        <p className="text-sm text-gray-500 mt-0 mb-4 text-center md:text-left">
+          There will be mobile applications soon (I hope so) ¯\_(ツ)_/¯
+        </p>
       </div>
-      <div className="grid grid-cols-1 gap-12 md:gap-5 md:grid-cols-3 items-start">
+      <div className="grid grid-cols-1 gap-12 md:gap-5 md:grid-cols-3 items-start mt-10">
         {projects.slice(0, 3).map((item) => {
           return <ProjectCard key={item.id} project={item} />;
         })}
