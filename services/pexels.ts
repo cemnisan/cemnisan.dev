@@ -6,7 +6,7 @@ export async function getPexelsPhotos(): Promise<PexelsPhoto[]> {
     const response = await fetch(
       `https://api.pexels.com/v1/collections/${
         process.env.PEXELS_COLLECTION_ID ?? "cpvoriu"
-      }?per_page=80&sort=desc&type=photos`,
+      }?per_page=80&sort=asc&type=photos`,
       {
         headers: {
           Authorization: process.env.NEXT_PUBLIC_PEXELS_API_KEY || "",

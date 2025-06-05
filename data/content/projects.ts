@@ -13,7 +13,7 @@ const projects: Project[] = [
   {
     id: 1,
     title: "Konak Rotaract",
-    desc: "Rotaract club of Konak, Turkey.",
+    desc: "Rotaract club of Konak, Izmir/Turkey.",
     img: "/static/projects/konakrotaract.png",
     link: "https://konakrotaract.org/",
     tags: ["React", "NextJS", "TailwindCSS"],
